@@ -1,35 +1,54 @@
-# Apk Editor Studio
+<p align="center">
+  <img src="zoe.png" alt="Apk Editor Studio — Zoe Studios banner" width="100%">
+</p>
 
-**The Swiss Army Knife of APK Modding.**
+<h1 align="center">🚀 Apk Editor Studio</h1>
 
-Apk Editor Studio is an Android APK editing and reverse-engineering toolkit built around the legacy APK Editor Master application. The project focuses on bringing its editing workflow to modern Android devices, improving compatibility with newer APK formats and Android platform restrictions, and refreshing the application under the Zoe Studios identity.
+<p align="center"><strong>The Swiss Army Knife of APK Modding.</strong></p>
 
 <p align="center">
-  <strong>Original Developer:</strong> Rizki Rizaldi<br>
-  <strong>Updated &amp; Maintained by:</strong> Zoe Studios
+  <img src="https://img.shields.io/badge/version-0.1%20Alpha-orange?style=for-the-badge" alt="Version 0.1 Alpha">
+  <img src="https://img.shields.io/badge/Android-8.0--17-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android 8.0 to 17">
+  <img src="https://img.shields.io/badge/API-26--37-34A853?style=for-the-badge" alt="API 26 to 37">
+  <img src="https://img.shields.io/badge/status-ALPHA-red?style=for-the-badge" alt="Alpha status">
 </p>
 
 <p align="center">
-  <a href="https://github.com/ZoeWasGreat/ApkEditorStudio">GitHub Repository</a> ·
-  <a href="https://t.me/Zoe_Studios">Zoe Studios Telegram</a> ·
-  <a href="https://github.com/ZoeWasGreat/ApkEditorStudio/issues">Report an Issue</a>
+  <a href="https://github.com/ZoeWasGreat/ApkEditorStudio/stargazers"><img src="https://img.shields.io/github/stars/ZoeWasGreat/ApkEditorStudio?style=flat&logo=github" alt="GitHub stars"></a>
+  <a href="https://github.com/ZoeWasGreat/ApkEditorStudio/issues"><img src="https://img.shields.io/github/issues/ZoeWasGreat/ApkEditorStudio?style=flat&logo=github" alt="GitHub issues"></a>
+  <a href="https://github.com/ZoeWasGreat/ApkEditorStudio"><img src="https://img.shields.io/badge/maintained%20by-Zoe%20Studios-8A2BE2?style=flat" alt="Maintained by Zoe Studios"></a>
+</p>
+
+<p align="center">
+  Apk Editor Studio is an Android APK editing and reverse-engineering toolkit built around the legacy APK Editor Master application. The project focuses on bringing its editing workflow to modern Android devices, improving compatibility with newer APK formats and Android platform restrictions, and refreshing the application under the Zoe Studios identity.
+</p>
+
+<p align="center">
+  <strong>🧑‍💻 Original Developer:</strong> Rizki Rizaldi<br>
+  <strong>✨ Updated &amp; Maintained by:</strong> Zoe Studios
+</p>
+
+<p align="center">
+  <a href="https://github.com/ZoeWasGreat/ApkEditorStudio">📦 GitHub Repository</a> ·
+  <a href="https://t.me/Zoe_Studios">💬 Zoe Studios Telegram</a> ·
+  <a href="https://github.com/ZoeWasGreat/ApkEditorStudio/issues">🐛 Report an Issue</a>
 </p>
 
 ---
 
-## Project status
+## 📌 Project status
 
-**Current version:** `0.1 Alpha`  
-**Minimum Android version:** Android 8.0 Oreo (API 26)  
-**Target SDK:** Android 17 (API 37)  
-**Maintainer:** Zoe Studios
+🏷️ **Current version:** `0.1 Alpha`  
+📱 **Minimum Android version:** Android 8.0 Oreo (API 26)  
+🎯 **Target SDK:** Android 17 (API 37)  
+👨‍💻 **Maintainer:** Zoe Studios
 
 > [!WARNING]
 > This is an **alpha** release. Some operations may fail depending on the APK being edited, the Android version, device architecture, or manufacturer-specific restrictions. Back up original APKs and important files before making changes.
 
-## Features
+## ✨ Features
 
-### APK editing
+### 🛠️ APK editing
 
 - **Full Edit** — decode and browse an APK's files, resources, manifest and DEX content.
 - **Simple Edit** — access common APK editing operations through a simplified workflow.
@@ -38,7 +57,7 @@ Apk Editor Studio is an Android APK editing and reverse-engineering toolkit buil
 - **PNG Edit** — work with image resources included in an APK.
 - **Saved Projects** — keep extracted projects available for later editing.
 
-### APK tools
+### 🧰 APK tools
 
 - **Choose / Extract APK** — extract installed applications and their available APK components.
 - **APK Conversion** — convert supported `.apks`, `.apkm` and `.xapk` packages into APK output.
@@ -51,7 +70,7 @@ Apk Editor Studio is an Android APK editing and reverse-engineering toolkit buil
 - **Odex Patcher** — access the included ODEX patching utility on supported devices.
 - **String Encryption** — use the included string-encryption utility.
 
-### Modern Android compatibility
+### 📱 Modern Android compatibility
 
 - Compatibility work targeting **Android 8.0 through Android 17 (API 26–37)**.
 - Updated storage handling with **All Files Access** integration on Android 11 and later.
@@ -61,7 +80,7 @@ Apk Editor Studio is an Android APK editing and reverse-engineering toolkit buil
 - Foreground-service notification channel and service-type handling for newer Android versions.
 - Edge-to-edge and system-bar layout adjustments for modern Android releases.
 
-### Resource and build engine improvements
+### ⚙️ Resource and build engine improvements
 
 - Bundled ARM native AAPT binaries for `arm64-v8a` and `armeabi-v7a` devices.
 - Updated framework resource definitions based on Android 16 (API 36).
@@ -70,7 +89,7 @@ Apk Editor Studio is an Android APK editing and reverse-engineering toolkit buil
 - Null-safe build error handling and improved diagnostics when resource compilation fails.
 - APK signing configured for V1, V2 and V3 signature schemes in the updated rebuild workflow.
 
-### Zoe Studios refresh
+### 🎨 Zoe Studios refresh
 
 - Updated application name to **Apk Editor Studio**.
 - Zoe Studios branding and custom launcher icon.
@@ -79,7 +98,7 @@ Apk Editor Studio is an Android APK editing and reverse-engineering toolkit buil
 - Font Awesome icons in Settings, with preference-row spacing fixes.
 - Standardised output directory: `/storage/emulated/0/ApkEditorStudio/`.
 
-## Compatibility
+## 📱 Compatibility
 
 | Item | Details |
 |---|---|
@@ -92,7 +111,7 @@ Apk Editor Studio is an Android APK editing and reverse-engineering toolkit buil
 
 Compatibility depends on the APK being processed and the device's Android implementation. Support for a platform version does not guarantee that every third-party APK can be decoded, rebuilt or installed successfully.
 
-## Output location
+## 📂 Output location
 
 Apk Editor Studio uses a common output folder:
 
@@ -114,7 +133,7 @@ ApkEditorStudio/
 
 Some tools write files directly into the main folder, while others use their dedicated subfolders. Existing files should be backed up before running operations that modify them in place.
 
-## Installation
+## 📥 Installation
 
 1. Open the repository's [Releases](https://github.com/ZoeWasGreat/ApkEditorStudio/releases) page.
 2. Download the APK attached to the release you want to try.
@@ -124,7 +143,7 @@ Some tools write files directly into the main folder, while others use their ded
 
 Only install APKs obtained from a source you trust. Apk Editor Studio is a tool for inspecting and modifying APK files; it does not make third-party APKs safe or trustworthy.
 
-## Build information
+## 🔧 Build information
 
 The current alpha build workflow has been documented with:
 
@@ -137,7 +156,7 @@ The project notes record successful installation and testing on a physical Andro
 
 > **Source availability:** At the time this README was prepared, the public repository page exposed only a README file. Build scripts and the complete editable project source are not currently published or documented here. This section describes the recorded build toolchain, not a fully reproducible build guide.
 
-## Changelog
+## 📝 Changelog
 
 ### `0.1 Alpha`
 
@@ -152,7 +171,7 @@ The project notes record successful installation and testing on a physical Andro
 
 For the detailed change list, see the [release notes](https://github.com/ZoeWasGreat/ApkEditorStudio/releases).
 
-## Credits
+## 🙌 Credits
 
 - **Rizki Rizaldi** — original developer of the legacy APK Editor Master application.
 - **Zoe Studios** — current project identity, modernization, compatibility work and maintenance.
@@ -162,7 +181,7 @@ For the detailed change list, see the [release notes](https://github.com/ZoeWasG
 
 All third-party names and trademarks belong to their respective owners. The credits above do not imply endorsement by those projects or organisations.
 
-## Issues and feedback
+## 🐛 Issues and feedback
 
 Found a bug, crash or compatibility problem?
 
@@ -172,12 +191,12 @@ Found a bug, crash or compatibility problem?
 
 You can also find Zoe Studios here: **[t.me/Zoe_Studios](https://t.me/Zoe_Studios)**.
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 Apk Editor Studio is provided **"as is"**, without warranty of any kind. APK modification can break applications, invalidate signatures, remove functionality or cause data loss. You are responsible for ensuring that you have permission to inspect and modify the APKs you use and that your use complies with applicable laws and the terms governing those applications.
 
 Apk Editor Studio is an independent project and is not affiliated with, sponsored by, or endorsed by Google, Android, or the original developer's other projects.
 
-## License
+## 📄 License
 
 No `LICENSE` file is currently published in this repository. Until a licence is added, do not assume that the source code or bundled assets may be redistributed, modified or reused beyond the permissions granted by their respective rights holders.
